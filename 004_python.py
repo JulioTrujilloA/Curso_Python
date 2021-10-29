@@ -27,4 +27,26 @@ print("Módulo")
 residuo = operando2 % operando1
 print(residuo)
 
-print("*Operadores aritméticos*")
+print("*Operadores booleanos*")
+
+operando3 = True
+operando4 = False
+
+#Compuerta AND
+print("Operador AND")
+
+operador_and = operando3 and operando4
+print("El resultado de True AND False es:")
+print(operador_and)
+
+operador_or = operando3 or operando4
+print("El resultado de True OR False es:")
+print(operador_or)
+
+negacionTrue = not operando3
+print("El resultado de negar (NOT) True es:")
+print(negacionTrue)
+
+negacionFalse = not operando4
+print("El resultado de negar (NOT) False es:")
+print(negacionFalse)
