@@ -5,6 +5,7 @@ operando1 = 8
 operando2 = 20
 incremento = 0
 
+#Lógica
 print("*Operadores aritméticos*")
 print("Operando 1 = 8, Operando 2 = 20")
 print("Suma")
@@ -39,9 +40,15 @@ operador_and = operando3 and operando4
 print("El resultado de True AND False es:")
 print(operador_and)
 
+#Compuerta OR
+print("Operador OR")
+
 operador_or = operando3 or operando4
 print("El resultado de True OR False es:")
 print(operador_or)
+
+#Operador NOT
+print("Operador NOT")
 
 negacionTrue = not operando3
 print("El resultado de negar (NOT) True es:")
